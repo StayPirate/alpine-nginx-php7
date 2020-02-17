@@ -76,7 +76,6 @@ RUN \
 
 COPY init /
 COPY nginx.conf /etc/nginx/
-COPY --chown=nginx:www-data index.php /www
 
 EXPOSE 80
 
