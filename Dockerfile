@@ -1,8 +1,8 @@
 FROM nginx:alpine
 
 LABEL maintainer="Gianluca Gabrielli" mail="tuxmealux+dockerhub@protonmail.com"
-LABEL description="h5ai on Nginx"
-LABEL website="https://github.com/StayPirate/Arcade"
+LABEL description="Nginx + php-pfm7"
+LABEL website="https://github.com/StayPirate/alpine-nginx-php7"
 
 RUN apk update && \
     apk add --no-cache \
