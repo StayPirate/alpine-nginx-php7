@@ -33,6 +33,7 @@ RUN apk update && \
         php7-iconv \
         php7-pdo_dblib \
         php7-curl \
+        php7-session \
         php7-ctype
 
 ENV TIMEZONE="Europe/Prague"
