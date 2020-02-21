@@ -34,7 +34,8 @@ RUN apk update && \
         php7-pdo_dblib \
         php7-curl \
         php7-session \
-        php7-ctype
+        php7-ctype \
+        php7-exif
 
 ENV TIMEZONE="Europe/Prague"
 ENV PHP_FPM_USER="nginx"
